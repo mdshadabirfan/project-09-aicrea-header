@@ -129,7 +129,7 @@ main header section #left #topText h1 {
 }
 main header section #left #topText h1 #first {
   display: inline-block;
-  background: url(./left-span-bg.png);
+  background: url(./left-span-bg.webp);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -231,21 +231,21 @@ main header section #rightImg3:hover {
 }
 main header section #rightImg1 {
   grid-area: rightImg1;
-  background: url(./rightImg1.jpg);
+  background: url(./rightImg1.webp);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 main header section #rightImg2 {
   grid-area: rightImg2;
-  background: url(./rightImg2.jpg);
+  background: url(./rightImg2.webp);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 main header section #rightImg3 {
   grid-area: rightImg3;
-  background: url(./rightImg3.jpg);
+  background: url(./rightImg3.webp);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;

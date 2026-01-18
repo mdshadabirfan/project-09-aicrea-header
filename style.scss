@@ -120,7 +120,7 @@ main {
             @include fontStyle(60px, 400);
             #first {
               display: inline-block;
-              background: url(./left-span-bg.png);
+              background: url(./left-span-bg.webp);
               @include bgProp();
               @include elDimensions(140px, 40px);
               border-radius: 50px;
@@ -210,17 +210,17 @@ main {
       }
       #rightImg1 {
         grid-area: rightImg1;
-        background: url(./rightImg1.jpg);
+        background: url(./rightImg1.webp);
         @include bgProp();
       }
       #rightImg2 {
         grid-area: rightImg2;
-        background: url(./rightImg2.jpg);
+        background: url(./rightImg2.webp);
         @include bgProp();
       }
       #rightImg3 {
         grid-area: rightImg3;
-        background: url(./rightImg3.jpg);
+        background: url(./rightImg3.webp);
         @include bgProp();
       }
     }
