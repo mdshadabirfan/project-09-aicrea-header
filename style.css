@@ -147,6 +147,7 @@ main header section #left #topText h1 #second {
   text-transform: uppercase;
   border: 1px solid black;
   transition: all 0.3s ease-out;
+  vertical-align: middle;
 }
 main header section #left #topText h1 #second i {
   margin-right: 10px;
