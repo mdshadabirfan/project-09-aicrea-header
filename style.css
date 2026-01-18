@@ -1,0 +1,252 @@
+@font-face {
+  font-family: inter;
+  src: url(./Inter-VariableFont_opsz\,wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+h3,
+i {
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 10px 50px;
+}
+main header {
+  width: 100%;
+  height: 100%;
+}
+main header nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+main header nav #logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+main header nav #logo i {
+  color: #8c8dc8;
+  font-size: 23px;
+  font-weight: 700;
+}
+main header nav #logo h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+main header nav #navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+main header nav #navLinks h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.779);
+  transition: all 0.4s ease-out;
+  -webkit-text-decoration: underline transparent;
+          text-decoration: underline transparent;
+}
+main header nav #navLinks h3:hover {
+  text-decoration-color: black;
+  color: black;
+}
+main header nav #navBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px;
+}
+main header nav #navBtns h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+main header nav #navBtns #talkBtn {
+  background-color: #2d3240;
+  padding: 12px 4px 12px 17px;
+  margin-left: 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+main header nav #navBtns #talkBtn i {
+  background-color: #bdc4fe;
+  margin-left: 8px;
+  color: #2d3240;
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+main header nav #navBtns #talkBtn:hover {
+  background-color: #bdc4fe;
+  color: #242833;
+}
+main header section {
+  width: 100%;
+  height: 90%;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "left rightImg1 rightImg1" "left rightImg2 rightImg3";
+  gap: 20px;
+}
+main header section #left {
+  padding-top: 20px;
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main header section #left #topText h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+main header section #left #topText h1 #first {
+  display: inline-block;
+  background: url(./left-span-bg.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+main header section #left #topText h1 #second {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  border: 1px solid black;
+  transition: all 0.3s ease-out;
+}
+main header section #left #topText h1 #second i {
+  margin-right: 10px;
+}
+main header section #left #topText h1 #second:hover {
+  cursor: pointer;
+  background-color: #8c8dc8;
+  border: none;
+  color: white;
+}
+main header section #left #topBtns {
+  margin-top: 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+main header section #left #topBtns h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+main header section #left #topBtns #contactBtn {
+  background-color: #2d3240;
+  padding: 12px 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  transition: all 0.3s ease-out;
+}
+main header section #left #topBtns #contactBtn:hover {
+  background-color: #8c8dc8;
+}
+main header section #left #topBtns #contactBtn i {
+  margin-left: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+main header section #left #topBtns #request {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 500;
+}
+main header section #left #bottom p {
+  width: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+main header section #left #bottom #images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-left: -8px;
+}
+main header section #left #bottom #images img {
+  width: 70px;
+}
+main header section #rightImg1,
+main header section #rightImg2,
+main header section #rightImg3 {
+  border-radius: 20px;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+main header section #rightImg1 #overlay,
+main header section #rightImg2 #overlay,
+main header section #rightImg3 #overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(3, 3, 3, 0.1294117647);
+  border-radius: 20px;
+}
+main header section #rightImg1:hover,
+main header section #rightImg2:hover,
+main header section #rightImg3:hover {
+  background-size: 102%;
+}
+main header section #rightImg1 {
+  grid-area: rightImg1;
+  background: url(./rightImg1.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main header section #rightImg2 {
+  grid-area: rightImg2;
+  background: url(./rightImg2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main header section #rightImg3 {
+  grid-area: rightImg3;
+  background: url(./rightImg3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */
